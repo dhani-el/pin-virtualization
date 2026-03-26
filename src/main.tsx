@@ -8,4 +8,3 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 )
-// what does the ui look like here and i wonder if there is some sort of anonymous block for comments just like the web or html page
