@@ -52,5 +52,6 @@ const initialData = [
 ];
 
 export function getData(page=1,amount=10){
+  if(page < 1) return initialData.slice( 1 , amount )
     return initialData.slice((page -1) * amount,(amount * page))
 }
